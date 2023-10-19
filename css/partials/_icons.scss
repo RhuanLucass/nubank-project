@@ -1,0 +1,50 @@
+.dropshadow{
+  filter: drop-shadow(0 16px 24px rgba(169, 80, 196, .25));
+}
+
+.bg-icon{
+  &::after{
+    background-size: cover;
+    filter: drop-shadow(0 16px 24px rgba(169, 80, 196, .25));
+    transition: .5s ease;
+    cursor: pointer;
+  }
+
+  &:hover{
+    &::after{
+      transform: scale(1.05);
+    }
+  }
+}
+
+.bg-icon-mobile{
+  &::after{
+    background-image: url('../../assets/svg/icon-mobile.svg');
+  }
+}
+
+.bg-icon-card{
+  &::after{
+    background-image: url('../../assets/svg/icon-card.svg');
+  }
+}
+
+.bg-icon-check{
+  &::after{
+    width: 40px;
+    height: 40px;
+    // top: 16px;
+    left: 8px;
+    background-image: url('../../assets/svg/icon-check.svg');
+  }
+}
+
+.icon{
+  filter: drop-shadow(0 16px 24px rgba(169, 80, 196, .25));
+  transition: .5s ease;
+  cursor: pointer;
+
+  &:hover{
+    transform: scale(1.05);
+  }
+}
