@@ -166,3 +166,201 @@ $hight-card: 1.57 * $width-card;
     opacity: 0;
   }
 }
+
+// FIGNU2
+.fignu2-screen1{
+  animation: fignu2-screen1 18s ease infinite alternate;
+  opacity: 0;
+}
+
+@keyframes fignu2-screen1{
+  0%, 15%{
+    opacity: 1;
+  }
+  20%, 100%{
+    opacity: 0;
+  }
+}
+
+.fignu2-screen2{
+  animation: fignu2-screen2 18s ease infinite alternate;
+  opacity: 0;
+}
+
+@keyframes fignu2-screen2{
+  0%, 15%{
+    opacity: 0;
+  }
+  20%, 35%{
+    opacity: 1;
+  }
+  40%, 100%{
+    opacity: 0;
+  }
+}
+
+.fignu2-screen3{
+  animation: fignu2-screen3 18s ease infinite alternate;
+  opacity: 0;
+}
+
+@keyframes fignu2-screen3{
+  0%, 35%{
+    opacity: 0;
+  }
+  40%, 55%{
+    opacity: 1;
+  }
+  60%, 100%{
+    opacity: 0;
+  }
+}
+
+.fignu2-screen4{
+  animation: fignu2-screen4 18s ease infinite alternate;
+  opacity: 0;
+}
+
+@keyframes fignu2-screen4{
+  0%, 55%{
+    opacity: 0;
+  }
+  60%, 75%{
+    opacity: 1;
+  }
+  80%, 100%{
+    opacity: 0;
+  }
+}
+
+.fignu2-screen5{
+  animation: fignu2-screen5 18s ease infinite alternate;
+  opacity: 0;
+}
+
+@keyframes fignu2-screen5{
+  0%, 75%{
+    opacity: 0;
+  }
+  80%, 100%{
+    opacity: 1;
+  }
+}
+
+.fignu2-icon1{
+  animation: fignu2-icon-move 3s ease 0s infinite alternate;
+}
+
+.fignu2-icon3{
+  animation: fignu2-icon-move 3s ease 2s infinite alternate;
+}
+
+.fignu2-icon5{
+  animation: fignu2-icon-move 3s ease 1s infinite alternate;
+}
+
+@keyframes fignu2-icon-move{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(10px, -40px, 0);
+  }
+}
+
+// FIGNU3
+.fignu3-card-verse,
+.fignu3-card-front,
+.fignu3-shadow{
+  transform: center center;
+  transform-box: fill-box;
+}
+
+.fignu3-card-verse{
+  animation: fignu3-card-verse-move 4s ease infinite alternate;
+  transform: translate3d(0, -40px, 0) rotate(0deg);
+}
+
+@keyframes fignu3-card-verse-move {
+  0%{
+    transform: translate3d(0, -40px, 0) rotate(0deg);
+  }
+  100%{
+    transform: translate3d(0, 20px, 0) rotate(5deg);
+  }
+}
+
+.fignu3-card-front{
+  animation: fignu3-card-front-move 4s ease 1s infinite alternate;
+  transform: translate3d(0, -40px, 0) rotate(0deg);
+}
+
+@keyframes fignu3-card-front-move {
+  0%{
+    transform: translate3d(0, -40px, 0) rotate(0deg);
+  }
+  100%{
+    transform: translate3d(0, 20px, 0) rotate(-5deg);
+  }
+}
+
+.fignu3-shadow{
+  fill-opacity: .15;
+  animation: fignu3-shadow 3s ease 1s infinite alternate;
+}
+
+@keyframes fignu3-shadow {
+  0%{
+    fill-opacity: .15;
+  }
+  100%{
+    fill-opacity: .4;
+  }
+}
+
+// FIGNU4
+.fignu4-letter-u,
+.fignu4-letter-n{
+  animation: fignu4-letter 4s ease infinite alternate;
+  
+}
+
+@keyframes fignu4-letter {
+  0%{
+    stroke-width: 0;
+    stroke-opacity: 0;
+    stroke-dasharray: 0 400;
+  }
+  60%, 100%{
+    stroke-width: 4;
+    stroke-opacity: 1;
+    stroke-dasharray: 400 0;
+  }
+}
+
+// FIGNU5
+.fignu5-ball1{
+  animation: translate-ball 4s ease infinite alternate;
+}
+
+.fignu5-ball2{
+  animation: translate-ball 4s ease 3s infinite alternate;
+}
+
+.fignu5-ball3{
+  animation: translate-ball 4s ease 1s infinite alternate;
+}
+
+.fignu5-ball4{
+  animation: translate-ball 4s ease 5s infinite alternate;
+}
+
+@keyframes translate-ball{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(100px, -100px, 0);
+  }
+}
+

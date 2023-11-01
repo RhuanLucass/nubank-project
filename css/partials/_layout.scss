@@ -52,6 +52,12 @@ $container-s: 540px;
   }
 }
 
+.flex-top{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
 .flex-start{
   display: flex;
   justify-content: flex-start;
@@ -61,6 +67,12 @@ $container-s: 540px;
 .flex-center{
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.flex-spacebetween{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -137,14 +149,6 @@ $container-s: 540px;
   z-index: -1;
 }
 
-.svg-bg-home{
-  width: 150%;
-
-  @include responsive(xl){
-    width: 100%;
-  }
-}
-
 //  SECTION PEOPLE
 .list-item{
   list-style: none;
@@ -205,4 +209,51 @@ $container-s: 540px;
     background-image: url('../../assets/svg/entail.svg');
     background-repeat: no-repeat;
   }
+}
+
+.bg-invite{
+  height: 100vh;
+  overflow: hidden;
+} 
+
+.svg-invite{
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+
+  @include responsive(s){
+    transform: translate(-50%, -50%) scale(1.5);
+  }
+}
+
+.list{
+  list-style: none;
+
+  li{
+    margin-bottom: 12px;
+  }
+
+  a{
+    color: $secondary-light;
+  }
+}
+
+footer{
+  background: linear-gradient(220.94deg, #A950C4 14.43%, #82269E 85.28%);
+
+  h4{
+    color: $white-light;
+    font-weight: 300;
+  }
+}
+
+.logonu-white{
+  max-width: 96px;
+}
+
+.bt-purple{
+  border-top: 1px solid $secondary-light;
 }

@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projeto Nubank</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <!-- SWIPER -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
@@ -28,7 +29,7 @@
     </nav>
 
     <!--===== NAVBAR DESKTOP =====-->
-    <nav class="navbar-desktop">
+    <nav class="navbar-desktop" data-aos="fade-up">
       <div class="navbar-desktop-item-1">
         <div class="logo">
           <a href="">
@@ -93,7 +94,7 @@
     <img src="assets/svg/bg-home.svg" onload="SVGInject(this)" class="svg-bg-home" />
   </div>
   <main class="container hero py-5">
-    <div class="flex-item-1 py-3">
+    <div class="flex-item-1 py-3" data-aos="fade-up" data-aos-delay="200">
       <h1>Ser Nubank é reinventar a sua vida financeira.</h1>
       <p class="my-2">Conta com rendimento acima da poupança, cartão de crédito sem anuidade e o melhor: resolva tudo pelo App.</p>
 
@@ -103,7 +104,7 @@
         <a href=""><img class="ml-2" src="assets/svg/playstore.svg" onload="SVGInject(this)" alt=""></a>
       </div>
     </div>
-    <div class="flex-item-3 div-card py-4 flex-center">
+    <div class="flex-item-3 div-card py-4 flex-center" data-aos="fade-up" data-aos-delay="400">
       <img class="icon-card-hero dropshadow" src="assets/svg/icon-card.svg" onload="SVGInject(this)" alt="">
       <img class="icon-mobile-hero dropshadow" src="assets/svg/icon-mobile.svg" onload="SVGInject(this)" alt="">
       <img class="icon-contactless-hero dropshadow" src="assets/svg/icon-contactless.svg" onload="SVGInject(this)" alt="">
@@ -113,12 +114,12 @@
 
   <!--===== SECTION PEOPLE =====-->
   <section class="container">
-    <div class="flex-item-4 flex-column">
+    <div class="flex-item-4 flex-column" data-aos="fade-up" data-aos-delay="0">
       <h5>Para todos</h5>
-      <h2>Completo.</h2>
-      <p>Resolva seu dia a dia pelo celular. Sem filas, sem anuidade, sem tarifas abusivas. Cuide do seu dinheiro de um jeito simples. Somos eficientes para você usar seu dinheiro com o que realmente importa, sem tarifas de manutenção.</p>
+      <h2 class="mt-2">Completo.</h2>
+      <p class="my-2">Resolva seu dia a dia pelo celular. Sem filas, sem anuidade, sem tarifas abusivas. Cuide do seu dinheiro de um jeito simples. Somos eficientes para você usar seu dinheiro com o que realmente importa, sem tarifas de manutenção.</p>
 
-      <ul class="flex-item-4 list mt-2">
+      <ul class="flex-item-4 list mt-2 pt-2">
         <li class="list-item bg-icon bg-icon-check">
           <strong>100% gratuito</strong>
           <p>Isso mesmo, você não paga nada para abrir sua conta.</p>
@@ -136,10 +137,10 @@
         <a href="" class="link">Confira os benefícios</a>
       </p>
     </div>
-    <div class="flex-item-3 mx-2">
+    <div class="flex-item-3 mx-2" data-aos="fade-up" data-aos-delay="200">
       <img src="assets/svg/svg-people1.svg" alt="" onload="SVGInject(this)">
     </div>
-    <div class="flex-item-1 flex-column mx-2 my-3 flex-center">
+    <div class="flex-item-1 flex-column mx-2 my-3 flex-center" data-aos="fade-up">
       <img src="assets/svg/svg-people2.svg" class="mx-2 my-2" id="people2" alt="" onload="SVGInject(this)">
       <img src="assets/svg/svg-people3.svg" alt="" onload="SVGInject(this)">
     </div>
@@ -147,7 +148,7 @@
 
   <!--===== SECTION BEST =====-->
   <section class="container">
-    <div class="best px-3 py-4">
+    <div class="best px-3 py-4" data-aos="fade-up" data-aos-delay="200">
       <div class="flex-item-auto">
         <h5>O melhor</h5>
         <h2>Por que Nubank?</h2>
@@ -171,50 +172,212 @@
     </div>
   </section>
 
-  <!--===== SECTION SLIDER =====-->
-  <section class="box">
-    <h5>Depoimentos</h5>;
-    <h2>Todos amam o roxinho</h2>
-  </section>
-  <section class="container-swiper">
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="photo"></div>
-          <h4>Jorge Silva</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates fugiat cum sit amet accusamus in numquam molestias libero quis molestiae at, asperiores dolore quo ducimus ab alias! In, officia unde.</p>
-        </div>
-        <div class="swiper-slide">
-          <div class="photo"></div>
-          <h4>Jorge Silva</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates fugiat cum sit amet accusamus in numquam molestias libero quis molestiae at, asperiores dolore quo ducimus ab alias! In, officia unde.</p>
-        </div>
-        <div class="swiper-slide">
-          <div class="photo"></div>
-          <h4>Jorge Silva</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates fugiat cum sit amet accusamus in numquam molestias libero quis molestiae at, asperiores dolore quo ducimus ab alias! In, officia unde.</p>
-        </div>
-        <div class="swiper-slide">
-          <div class="photo"></div>
-          <h4>Jorge Silva</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates fugiat cum sit amet accusamus in numquam molestias libero quis molestiae at, asperiores dolore quo ducimus ab alias! In, officia unde.</p>
-        </div>
-        <div class="swiper-slide">
-          <div class="photo"></div>
-          <h4>Jorge Silva</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates fugiat cum sit amet accusamus in numquam molestias libero quis molestiae at, asperiores dolore quo ducimus ab alias! In, officia unde.</p>
-        </div>
+  <!--===== SECTION DIGITAL ACCOUNT =====-->
+  <section class="container">
+    <div class="flex-item-1 p-3" data-aos="fade-up">
+      <img src="assets/svg/fignu2.svg" alt="" onload="SVGInject(this)">
+    </div>
+    <div class="flex-item-1" data-aos="fade-up" data-aos-delay="200">
+      <h5>Conta Digital</h5>
+      <h2 class="mt-2">Tudo pelo App.</h2>
+      <p class="my-2">Nossa conta digital com mais de 20 milhões de clientes em todo o Brasil. Pague suas contas, ajuste seu limite, bloqueie e desbloqueie o cartão quando quiser e acompanhe cada movimentação em tempo real. Tudo pelo aplicativo.</p>
+      <ul class="list mt-2 pt-2">
+        <li class="list-item bg-icon bg-icon-mobile">
+          <strong>Tudo na palma da sua mão</strong>
+          <p>Conta digital. Você resolve tudo pelo App. Tudo.</p>
+        </li>
+        <li class="list-item bg-icon bg-icon-time">
+          <strong>Sem filas ou burocracias</strong>
+          <p>Investimos no melhor suporte para isso. Não tem filas. Economia de tempo.</p>
+        </li>
+        <li class="list-item bg-icon bg-icon-config">
+          <strong>Configure tudo no app</strong>
+          <p>Toda a configuração e acesso aos novos recursos a um clique de distância.</p>
+        </li>
+      </ul>
+      <div>
+        <a href="" class="link">Segura e sem complicações</a>
       </div>
-
-      <div class="button-next"></div>
-      <div class="button-preview"></div>
-      
     </div>
   </section>
 
+  <!--===== SECTION SLIDER =====-->
+  <section class="container">
+    <div class="flex-item-1" data-aos="fade-up">
+      <h5>Seu roxinho</h5>
+      <h2 class="mt-2">Crédito e débito</h2>
+      <p class="my-2">Pode chamar ele de roxinho. Além disso, pode chamar ele de moderno, gratuito e prático também. Facilidade e segurança para você em mais de 30 milhões de estabelecimentos, além dos benefícios Mastercard.</p>
+      <ul class="list mt-2 pt-2">
+        <li class="list-item bg-icon bg-icon-contactless">
+          <strong>Tecnologia Contactless</strong>
+          <p>Tecnologia de pagamento por aproximação. Mais agilidade no dia a dia.</p>
+        </li>
+        <li class="list-item bg-icon bg-icon-card">
+          <strong>Cartão virtual</strong>
+          <p>Você pode gerar cartões virtuais no app para suas comprar online. Mais segurança.</p>
+        </li>
+      </ul>
+      <div>
+        <a href="" class="link">Saiba mais</a>
+      </div>
+    </div>
+    <div class="flex-item-1 p-3" data-aos="fade-up" data-aos-delay="200">
+      <img src="assets/svg/fignu3.svg" alt="" onload="SVGInject(this)">
+    </div>
+  </section>
+
+
+  <!--===== SECTION SLIDER =====-->
+  <section class="box" data-aos="fade-up">
+    <h5>Depoimentos</h5>
+    <h2>Todos amam o roxinho</h2>
+  </section>
+  <section class="container-swiper" data-aos="fade-up" data-aos-delay="200">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="photo-profile photo-1"></div>
+          <h4 class="my-1">Jorge Silva</h4>
+          <p class="my-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates fugiat cum sit amet accusamus in numquam molestias libero quis molestiae at, asperiores dolore quo ducimus ab alias! In, officia unde.</p>
+        </div>
+        <div class="swiper-slide">
+          <div class="photo-profile photo-2"></div>
+          <h4 class="my-1">Jorge Silva</h4>
+          <p class="my-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates fugiat cum sit amet accusamus in numquam molestias libero quis molestiae at, asperiores dolore quo ducimus ab alias! In, officia unde.</p>
+        </div>
+        <div class="swiper-slide">
+          <div class="photo-profile photo-3"></div>
+          <h4 class="my-1">Jorge Silva</h4>
+          <p class="my-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates fugiat cum sit amet accusamus in numquam molestias libero quis molestiae at, asperiores dolore quo ducimus ab alias! In, officia unde.</p>
+        </div>
+        <div class="swiper-slide">
+          <div class="photo-profile photo-4"></div>
+          <h4 class="my-1">Jorge Silva</h4>
+          <p class="my-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates fugiat cum sit amet accusamus in numquam molestias libero quis molestiae at, asperiores dolore quo ducimus ab alias! In, officia unde.</p>
+        </div>
+        <div class="swiper-slide">
+          <div class="photo-profile photo-5"></div>
+          <h4 class="my-1">Jorge Silva</h4>
+          <p class="my-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates fugiat cum sit amet accusamus in numquam molestias libero quis molestiae at, asperiores dolore quo ducimus ab alias! In, officia unde.</p>
+        </div>
+      </div>
+    </div>
+
+      <div class="button-next"></div>
+      <div class="button-prev"></div>
+  </section>
+
+  <!--===== SECTION APP NUBANK =====-->
+  <section class="container">
+    <div class="flex-item-1" data-aos="fade-up">
+      <h5>Faça sua conta</h5>
+      <h2 class="mt-2">Baixe. É gratuito.</h2>
+      <p class="my-2">Vamos lá, junte-se aos mais de 20 milhões que escolheram a Nubank. Conte com o banco digital que mais cresce no Brasil. É de graça. É para todos. Clique e baixe.</p>
+      <div class="flex-start">
+        <a href=""><img src="assets/svg/app-store.svg" class=" button-app w-auto" alt="" onload="SVGInject(this)"></a>
+        <a href=""><img src="assets/svg/google-play.svg" class=" button-app w-auto ml-2" alt="" onload="SVGInject(this)"></a>
+      </div>
+    </div>
+    <div class="flex-item-1 p-3" data-aos="fade-up" data-aos-delay="200">
+      <img src="assets/svg/fignu4.svg" alt="" onload="SVGInject(this)">
+    </div></section>
+
+  <!--===== SECTION INVITE =====-->
+  <div class=" bg-invite flex-center relative">
+    <img src="assets/svg/fignu5.svg" class="w-auto svg-invite" alt="" onload="SVGInject(this)">
+    <section class="container">
+      <div class="flex-item-1 flex-center flex-column" data-aos="fade-up">
+        <h5>Nuconta</h5>
+        <h2 class="mt-2">O melhor dos bancos digitais para você.</h2>
+        <p class="my-2 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis illo cupiditate dolor, reiciendis eligendi.</p>
+        <div>
+          <a href="" class="btn mr-2">Quero ser Nubank</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!--===== FOOTER =====-->
+  <footer>
+    <section class="container flex-top">
+      <div class="ml-4">
+        <h4>Nubank</h4>
+        <ul class="list mt-2 pt-2">
+          <li><a href="">Sobre nós</a></li>
+          <li><a href="">Sobre nós</a></li>
+          <li><a href="">Sobre nós</a></li>
+          <li><a href="">Sobre nós</a></li>
+          <li><a href="">Sobre nós</a></li>
+        </ul>
+      </div>
+      <div class="ml-4">
+        <h4>Nubank</h4>
+        <ul class="list mt-2 pt-2">
+          <li><a href="">Sobre nós</a></li>
+          <li><a href="">Sobre nós</a></li>
+          <li><a href="">Sobre nós</a></li>
+          <li><a href="">Sobre nós</a></li>
+          <li><a href="">Sobre nós</a></li>
+        </ul>
+      </div>
+      <div class="ml-4">
+        <h4>Nubank</h4>
+        <ul class="list mt-2 pt-2">
+          <li><a href="">Sobre nós</a></li>
+          <li><a href="">Sobre nós</a></li>
+          <li><a href="">Sobre nós</a></li>
+          <li><a href="">Sobre nós</a></li>
+          <li><a href="">Sobre nós</a></li>
+        </ul>
+      </div>
+      <div class="ml-4">
+        <h4>Nubank</h4>
+        <ul class="list mt-2 pt-2">
+          <li><a href="">Sobre nós</a></li>
+          <li><a href="">Sobre nós</a></li>
+          <li><a href="">Sobre nós</a></li>
+          <li><a href="">Sobre nós</a></li>
+          <li><a href="">Sobre nós</a></li>
+        </ul>
+      </div>
+      <div class="ml-4">
+        <h4>Baixe o App</h4>
+        <div class="mt-2 pt-2 flex-start">
+          <a href=""><img src="assets/svg/app-store.svg" class=" button-app w-auto" alt="" onload="SVGInject(this)"></a>
+          <a href=""><img src="assets/svg/google-play.svg" class=" button-app w-auto ml-2" alt="" onload="SVGInject(this)"></a>
+        </div>
+      </div>
+    </section>
+    <section class="container py-3 flex-spacebetween bt-purple">
+      <div class="flex-start">
+        <img src="assets/svg/logonu-white.svg" class="logonu-white" alt="" onload="SVGInject(this)">
+        <p class="color-white ml-2">
+          Nu Pagamentos S.A. 18.236.120/0001-58<br/>
+          Rua Capote Valente, 39 - São Paulo, SP - 05049-000
+        </p>
+      </div>
+      <div class="flex-start">
+        <a href=""><img src="assets/svg/icon-facebook.svg" class="icon-network mx-1" alt="" onload="SVGInject(this)"></a>
+        <a href=""><img src="assets/svg/icon-youtube.svg" class="icon-network mx-1" alt="" onload="SVGInject(this)"></a>
+        <a href=""><img src="assets/svg/icon-instagram.svg" class="icon-network mx-1" alt="" onload="SVGInject(this)"></a>
+        <a href=""><img src="assets/svg/icon-twitter.svg" class="icon-network mx-1" alt="" onload="SVGInject(this)"></a>
+        
+      </div>
+    </section>
+  </footer>
+
   <!--===== JS =====-->
   <script src="js/app.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  
+  <script>
+    AOS.init({
+      easing: "ease-out-quart", //curva de transição
+      duration: 1000, //duração da transição
+      once: true //animar apenas uma vez
+    });
+  </script>
   <script>
     var swiper = new Swiper('.swiper-container', {
       sliderPerView: 'auto',

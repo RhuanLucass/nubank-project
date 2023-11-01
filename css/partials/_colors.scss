@@ -47,3 +47,7 @@ $gradient-normal: linear-gradient(220.94deg,$secondary-normal 14.43%, $primary-n
 $shadow-normal: 0px 2.76726px 2.21381px 0px rgba(156, 79, 180, 0.02), 0px 6.6501px 5.32008px 0px rgba(156, 79, 180, 0.03), 0px 12.52155px 10.01724px 0px rgba(156, 79, 180, 0.04), 0px 22.33631px 17.86905px 0px rgba(156, 79, 180, 0.04), 0px 41.77761px 33.42209px 0px rgba(156, 79, 180, 0.05);
 $shadow-button: 0px 4px 10px 0px rgba(169, 80, 196, 0.50);
 $shadow-hover:  0px 4px 14px 2px rgba(169, 80, 196, 0.80);
+
+.color-white{
+  color: $white-light;
+}
