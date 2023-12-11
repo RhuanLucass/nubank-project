@@ -176,7 +176,7 @@
   transform: translate(-50%, 0);
   width: 124px;
   height: 32px;
-  background-image: url("assets/svg/entail.svg");
+  background-image: url("../assets/svg/entail.svg");
   background-repeat: no-repeat;
 }
 
@@ -366,7 +366,7 @@ a:hover {
 .link {
   display: inline-block;
   color: #82269E;
-  background-image: url("assets/svg/icon-arrow.svg");
+  background-image: url("../assets/svg/icon-arrow.svg");
   background-repeat: no-repeat;
   background-position: 0% 50%;
   font-size: 18px;
@@ -1016,7 +1016,7 @@ header {
   width: 36px;
   height: 36px;
   cursor: pointer;
-  background-image: url("assets/svg/icon-arrow.svg");
+  background-image: url("../assets/svg/icon-arrow.svg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -1028,7 +1028,7 @@ header {
   width: 36px;
   height: 36px;
   cursor: pointer;
-  background-image: url("assets/svg/icon-arrow.svg");
+  background-image: url("../assets/svg/icon-arrow.svg");
   background-repeat: no-repeat;
   background-position: center center;
   transform: rotateY(180deg);
@@ -1043,23 +1043,23 @@ header {
 }
 
 .photo-1 {
-  background-image: url("assets/img/people1.png");
+  background-image: url("../assets/img/people1.png");
 }
 
 .photo-2 {
-  background-image: url("assets/img/people2.png");
+  background-image: url("../assets/img/people2.png");
 }
 
 .photo-3 {
-  background-image: url("assets/img/people3.png");
+  background-image: url("../assets/img/people3.png");
 }
 
 .photo-4 {
-  background-image: url("assets/img/people4.png");
+  background-image: url("../assets/img/people4.png");
 }
 
 .photo-5 {
-  background-image: url("assets/img/people5.png");
+  background-image: url("../assets/img/people5.png");
 }
 
 .dropshadow {
@@ -1080,23 +1080,23 @@ header {
 }
 
 .bg-icon-mobile::after {
-  background-image: url("assets/svg/icon-mobile.svg");
+  background-image: url("../assets/svg/icon-mobile.svg");
 }
 
 .bg-icon-time::after {
-  background-image: url("assets/svg/icon-time.svg");
+  background-image: url("../assets/svg/icon-time.svg");
 }
 
 .bg-icon-config::after {
-  background-image: url("assets/svg/icon-config.svg");
+  background-image: url("../assets/svg/icon-config.svg");
 }
 
 .bg-icon-card::after {
-  background-image: url("assets/svg/icon-card.svg");
+  background-image: url("../assets/svg/icon-card.svg");
 }
 
 .bg-icon-contactless::after {
-  background-image: url("assets/svg/icon-contactless.svg");
+  background-image: url("../assets/svg/icon-contactless.svg");
 }
 
 .icon {
@@ -1145,11 +1145,11 @@ header {
 }
 @keyframes change-bg-card {
   0%, 50% {
-    background-image: url("assets/svg/nubank.svg");
+    background-image: url("../assets/svg/nubank.svg");
     background-size: cover;
   }
   51%, 100% {
-    background-image: url("assets/svg/nubank-verse.svg");
+    background-image: url("../assets/svg/nubank-verse.svg");
     background-size: cover;
   }
 }
