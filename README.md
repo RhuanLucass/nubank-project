@@ -12,7 +12,7 @@ An SCSS library was developed to ease project coding, offering:
 
 ## Project Preview
 
-![Preview](https://github.com/RhuanLucass/nubank-project/blob/main/assets/img/nubank.png)
+![Preview](https://github.com/RhuanLucass/nubank-project/blob/main/assets/img/nubank.gif)
 
 ## Project Details
 - **Objective:** Deepen Front-end knowledge by applying concepts from the FrontPush course.
